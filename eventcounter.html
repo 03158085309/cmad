@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="click to increase" onclick="increasecounter()">
+    <label id="num"></label>
+   <input type="button" value="Decrease" id="dec" onclick="decNumber()"/>
+    
+
+
+
+
+
+
+
+
+
+
+
+<script>
+      var i= 0
+  function  increasecounter(){
+      if(i < 100){
+          i++;
+      }
+      else if(i = 10){
+        i = 0; 
+      }
+      document.getElementById("num").innerHTML = i
+
+    }
+    function decNumber() {
+        if (i > 0) {
+            --i;
+        } else if (i = 0) {
+            i = 10;
+        }
+        document.getElementById("num").innerHTML = i;
+    }
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

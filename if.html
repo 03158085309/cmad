@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        var a = Number(prompt("English marks"));
+        var b = Number(prompt("Maths marks"));
+        var c = Number(prompt("Urdu marks"));
+        //alert("English Marks " + (a))
+        // alert("Maths Marks " + (b))//
+        //alert("Urdu marks " + (c))//
+        var totalmarks = 300;
+        var e = a + b + c;
+        alert("obtained marks " + (e));
+        alert("total markes " + (totalmarks));
+        var percentage = e / totalmarks * 100;
+        alert("percentage " + (percentage));
+        if (percentage <= 80) {
+            alert("you got a+ grade")
+        }
+        if (percentage <= 70){ 
+            alert("you got B grade")
+        }       
+        if(percentage <= 60) {
+            alert("you got C grade")
+        }
+if (percentage < 60) 
+    alert("sorry you have failed")
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

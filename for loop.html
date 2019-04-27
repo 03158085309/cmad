@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*for (var i = 0; i <= 10; i++) {
+            document.write(i + "<br>")
+        }
+        var user = Number(prompt("enter a table multiplicaton"));
+        var user1 = Number(prompt("enter a table lenght"));
+        for (var i = 1; i <= user1; i++) {
+            document.write(user * i + "<br>")
+        }*/
+        // var fruits = ["apple", "banana", "mango", "orange",
+        //     "strawberry"];
+        // var c = fruits.length
+        // for (i = 0; i <= c; i++) {
+        //     document.write(fruits[i] + "<br>")
+        // }
+     var user =  ( prompt("enter a password! contain alphabates and number"));
+    var c = user.charCodeAt();
+    if (c[0] === Number){
+        alert("please enter a valid password")
+    }
+    else if(c >= 65 && c<= 120 & c.length >= 6  ){
+        alert("correct password")
+    }    
+// var University = "University of Karachi";
+// University.split();
+// for(var i = 0 ; i<University.length; i++){
+// document.write(University[i]+"<br>")
+// }
+// var country = "pakistan";
+// c = country.slice(7 , 8);
+// document.write(c);
+// var sentence = "the quick brown fox jump over the lazy dog";
+// alert(sentence.search("the"));
+
+
+    </script>
+</body>
+
+</html>

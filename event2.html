@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function SomeDeleteRowFunction(o) {
+         //no clue what to put here?
+         var p=o.parentNode.parentNode;
+             p.parentNode.removeChild(p);
+        }
+        </script>
+    
+        <table>
+           <tr>
+               <td><input type="button" value="Delete Row1" onclick="SomeDeleteRowFunction(this)"></td>
+           </tr>
+           <tr>
+               <td><input type="button" value="Delete Row2" onclick="SomeDeleteRowFunction(this)"></td>
+           </tr>
+           <tr>
+               <td><input type="button" value="Delete Row3" onclick="SomeDeleteRowFunction(this)"></td>
+           </tr>
+        </table>
+</body>
+</html>
